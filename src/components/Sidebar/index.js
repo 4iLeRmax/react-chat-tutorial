@@ -25,8 +25,10 @@ const Sidebar = ({
 }) => {
   const options = users.map((user) => <Option key={user._id}>{user.fullname}</Option>);
 
-  //sdfsdfsdfsdfsdfdsfs111111111111111111111111111
-  //fgdfgdf gdfyg  ydf gdfgyudf yudfg
+  const currentDate = ()=> {
+    console.log(new Date());
+  }
+  currentDate();
 
   return (
     <div className='chat__sidebar'>
