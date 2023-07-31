@@ -25,6 +25,10 @@ const Sidebar = ({
 }) => {
   const options = users.map((user) => <Option key={user._id}>{user.fullname}</Option>);
 
+const test = ()=> {
+  console.log('Updated from site')
+}
+test();
   //sdfsdfsdfsdfsdf
 
   return (
