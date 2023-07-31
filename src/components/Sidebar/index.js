@@ -25,7 +25,7 @@ const Sidebar = ({
 }) => {
   const options = users.map((user) => <Option key={user._id}>{user.fullname}</Option>);
 
-  //sdfsdfsdfsdfsdfdsfsdf ssdf sd
+  //sdfsdfsdfsdfsdfdsfs111111111111111111111111111
 
   return (
     <div className='chat__sidebar'>
