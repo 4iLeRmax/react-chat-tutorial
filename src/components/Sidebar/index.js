@@ -29,7 +29,7 @@ const Sidebar = ({
     console.log('Updated from site');
   };
   test();
-  //sdfsdfsdfsdfsdf
+  //sdfsdfsdfsdfsdf dfgudfgguydfuygdyu fgudfguhdfg
 
   return (
     <div className='chat__sidebar'>
